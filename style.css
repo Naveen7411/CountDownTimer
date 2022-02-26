@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(./Wallprint.jpg);
+    background-size: cover;
+    background-position: center center;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+.containerdata {
+    margin-right: 3rem;
+    display: flex;
+}
+
+h1 {
+    margin-right: 3rem;
+    font-weight: normal;
+    font-size: 4rem;
+    margin-top: 3rem;
+}
+
+.big-text {
+    font-weight: bold;
+    font-size: 6rem;
+    line-height: 1;
+    margin: 0 2rem;
+}
+
+.c-el {
+    text-align: center;
+}
+
+.c-el span {
+    font-size: 1.4rem;
+}
+
+#msg {
+    background-color: rgb(167, 238, 182);
+    font-weight: bold;
+    font-size: 2rem;
+    color: rgba(2, 32, 22, 0.87);
+}
+
+input {
+    margin-top: 2vh;
+    border: 2px solid #c4c4c4;
+    border-radius: 5px;
+    background-color: #fff;
+    padding: 10px 10px;
+    box-shadow: inset 0 3px 6px rgba(0, 0, 0, 0.1);
+    width: 230px;
+}
+
+[type="date"],
+label {
+    font-size: 1.5rem;
+}
